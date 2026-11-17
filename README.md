@@ -36,6 +36,20 @@ python scripts/privacy_check.py --root . --strict --words-file /path/to/private_
 
 产物在 `output/` 下：Word 报告 + 交互 HTML。
 
+## 不会命令行？两种傻瓜化用法
+
+除了上面的命令行方式，本项目还提供两条零门槛路径，适合分享给不懂技术的老师：
+
+| 方式 | 文件 | 适用场景 |
+|---|---|---|
+| **本地一键包** | `一键运行_Mac.command` / `一键运行_Win.bat` | 双击启动 → 选 Excel → 自动识别列 → 生成。全程本机运行，成绩数据不出电脑，首次需联网装依赖，之后可离线 |
+| **云端网页版** | `scripts/web_app.py`（Streamlit） | 浏览器打开 → 上传 Excel → 一键生成并下载。零安装，手机可用；数据仅在临时目录处理、会话结束即销毁 |
+
+本地一键包会引导你填基本信息、自动识别 Excel 列，并生成 `config.yaml`，无需手写配置。
+云端网页版可自行部署：`pip install -r requirements.txt` 后 `streamlit run scripts/web_app.py`。
+
+完整转发文案、操作步骤与隐私对照见 `分享指南.md`。
+
 ## 文档
 
 - `references/INPUT_SCHEMA.md` — Excel 列契约
