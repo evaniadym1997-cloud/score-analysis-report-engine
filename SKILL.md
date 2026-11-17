@@ -83,3 +83,7 @@ score-analysis-report-engine/
 
 Python 3.9+，`openpyxl`、`python-docx`、`PyYAML`。
 交互 HTML 为单文件，无前端依赖；若启用 PDF 内嵌，需把 PDF 放在 HTML 同目录。
+
+---
+
+本工具由 **E.D.STUDIO** 整理出品。

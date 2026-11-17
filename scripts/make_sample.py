@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (C) E.D.STUDIO · 成绩分析报告工具
 """生成与 config.yaml 列契约完全对齐的【全虚构】示例 Excel。
 
 所有姓名均为「示例学生01」式占位符，成绩由固定种子随机生成，

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (C) E.D.STUDIO · 成绩分析报告工具
 """云端网页版：上传 Excel → 确认列 → 一键生成并下载 docx + 交互 HTML。
 
 隐私：上传文件只写入临时目录，生成后立即读取为下载字节并随会话销毁；

@@ -1,3 +1,5 @@
+—— E.D.STUDIO · 成绩分析报告工具 ——
+
 streamlit>=1.30
 openpyxl>=3.1
 python-docx>=1.1

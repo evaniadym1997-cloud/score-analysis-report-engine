@@ -59,3 +59,7 @@ tier_rules:
 | 所有学生都是 `missing_tier` | `rank` 列映射错误，或排名列存的是文本 |
 | 薄弱诊断显示「未配置」 | 未填 `section_rates`，或板块名与 `subjects.sections` 不一致 |
 | HTML 无「查看报告」列 | `pdf_report.enabled` 为 false，或 PDF 未放同目录 |
+
+---
+
+本工具由 **E.D.STUDIO** 整理出品。

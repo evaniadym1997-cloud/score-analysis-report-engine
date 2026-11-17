@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (C) E.D.STUDIO · 成绩分析报告工具
 """共享生成核心：本地向导与云端网页版都调用本模块的 generate()。
 
 参数：

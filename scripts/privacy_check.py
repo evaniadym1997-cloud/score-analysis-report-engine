@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (C) E.D.STUDIO · 成绩分析报告工具
 """脱敏门禁：扫描整个目录，命中个人数据特征即非零退出。
 
 用法：

@@ -58,3 +58,7 @@ HTML 由 `build_report.py` 内的模板生成，单文件、无前端依赖。�
 3. 配置 `pdf_report.enabled: true`。
 
 引擎会在表格加「查看报告」列，点击用 `iframe` 内嵌预览。若需按页跳转，URL 用 `file.pdf#page=N`，且切换学生时**重建 iframe**（仅改 hash 在 `file://` 下不一定重新定位）。
+
+---
+
+本工具由 **E.D.STUDIO** 整理出品。

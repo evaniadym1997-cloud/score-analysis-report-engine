@@ -60,3 +60,7 @@ input:
 ## 6. 虚构示例
 
 运行 `python scripts/make_sample.py --config config.yaml --out sample.xlsx` 可生成一份与配置列契约完全对齐的虚构数据（姓名为「示例学生01」这类占位符，成绩为随机生成）。可用它先跑通全流程，再替换为真实数据。
+
+---
+
+本工具由 **E.D.STUDIO** 整理出品。

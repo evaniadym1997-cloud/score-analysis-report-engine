@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (C) E.D.STUDIO · 成绩分析报告工具
 """成绩分析与报告生成引擎（通用版）
 
 输入：标准列契约 Excel + config.yaml

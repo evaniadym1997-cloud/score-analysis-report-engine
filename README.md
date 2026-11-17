@@ -1,5 +1,8 @@
 # 成绩分析与报告生成引擎（通用版）
 
+> 🏷️ **E.D.STUDIO** · 成绩分析报告工具（通用版）
+
+
 把一份标准列契约的成绩 Excel，一键变成 **Word 学科能力分析报告** + **交互式 HTML 网页版**。面向教师与班主任，零个人数据、配置驱动、可自由改造。
 
 ## 它能做什么
@@ -65,3 +68,7 @@ python scripts/privacy_check.py --root . --strict --words-file /path/to/private_
 ## License
 
 MIT — 见 `LICENSE`。
+
+---
+
+本工具由 **E.D.STUDIO** 整理出品。
