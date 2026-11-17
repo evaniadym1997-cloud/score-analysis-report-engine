@@ -15,7 +15,29 @@
 | 个人报告联动（可选） | 交互 HTML 可内嵌 PDF 个人报告，点击学生直达对应页 |
 | 完全通用 | 学校名、班级、科目、考试名、折算锚点、诊断归因全部由 `config.yaml` 注入 |
 
-## 快速开始
+## 安装（给拿到本仓库的同事）
+
+**方式一：装成 WorkBuddy 技能（推荐，一条命令）**
+
+```bash
+# 克隆
+git clone https://github.com/evaniadym1997-cloud/score-analysis-report-engine.git
+cd score-analysis-report-engine
+
+# 安装（复制到 ~/.workbuddy/skills/ + 修复可执行位 + 装依赖）
+bash install_to_workbuddy.sh
+```
+
+Windows 双击 `install_to_workbuddy.bat`。
+
+装完在 WorkBuddy 对话框里直接说「用成绩分析报告引擎，把这份成绩 Excel 分析成学情报告」即可。
+
+> 若不想装成技能，只想跑一次：直接下载
+> [Release v1.0.0](https://github.com/evaniadym1997-cloud/score-analysis-report-engine/releases/tag/v1.0.0)
+> 的 zip，解压后双击 `一键运行_Mac.command`（Windows 用 `一键运行_Win.bat`），
+> 会引导你选 Excel、自动识别列、生成 Word + 交互网页。
+
+## 快速开始（手动跑）
 
 ```bash
 # 1. 安装依赖
